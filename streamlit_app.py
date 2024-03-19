@@ -1,4 +1,4 @@
 import streamlit as st
 
 
-st.markdown("# Novotern farm project")
+st.title("Nigeria Farmland Analysis")
