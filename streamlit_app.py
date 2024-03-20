@@ -14,7 +14,7 @@ farmland = pd.read_csv("farmlands.csv")
 # Display the distribution of farm types
 farm_type_distribution = farmland['type'].value_counts().reset_index()
 
-fig1 = px.bar(farm_type_distribution, 'type', 'count', 
+fig1 = px.bar(farm_type_distribution, 'type', 'count', text_auto=True,
         labels={'type': '<b>Farm Type</b>', 'count':'<b>Counts</b>'},
         title='<b>Distribution of Farm Types</b>', width=700)
 with st.expander('Farm Type Distribution', True):
