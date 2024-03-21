@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Setting page size and title
-st.set_page_config(layout="wide", page_title='NOVOTERN POWER BI PORTFOLIO', page_icon='logo.png' ) 
+st.set_page_config(layout="wide", page_title='NOVOTERN PORTFOLIO', page_icon='logo.png' ) 
 
 st.title("Nigeria Farmland Analysis")
 
@@ -31,3 +31,28 @@ with st.expander('Distribution of Farm Category', True):
     st.plotly_chart(fig2, use_container_width=True)
     if st.checkbox('Show raw data', key=2):
         st.write(farms_by_category)
+        
+        
+st.sidebar.subheader("Address")
+st.sidebar.text("""
+                The Philippi Centre, Oluwalogbon House, 
+                Plot A Obafemi Awolowo Way, Alausa, 
+                Ikeja, Lagos, Nigeria.
+                """)
+st.sidebar.subheader("Contact")
+st.sidebar.text(
+"""
++2347061228930 
++447831813568 
+info@novotern.com
+"""
+)
+st.sidebar.markdown("""
+                    ## Quick Links
+                    [Our Team](https://www.novotern.com/about/)
+                    [Programs](https://paystack.shop/novotern)
+                    [Careers](https://www.novotern.com/#)
+                    [Partnership](https://www.novotern.com/contact/)                
+                    """)
+
+st.sidebar.markdown("[LinkedIn](https://www.novotern.com/)") 
