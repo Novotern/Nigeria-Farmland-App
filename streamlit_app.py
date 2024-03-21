@@ -32,7 +32,11 @@ with st.expander('Distribution of Farm Category', True):
     if st.checkbox('Show raw data', key=2):
         st.write(farms_by_category)
         
-st.sidebar.image('logo.png')    
+st.sidebar.image('logo.png') 
+st.sidebar.text("""
+ELEVATE YOUR CAREER
+Unlock Limitless Opportunities with TECH
+""")   
 st.sidebar.subheader("Address")
 st.sidebar.text("""
                 The Philippi Centre, Oluwalogbon House, 
