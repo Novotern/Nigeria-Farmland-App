@@ -43,6 +43,7 @@ st.sidebar.markdown("""
                     [Careers](https://www.novotern.com/#)
                     [Partnership](https://www.novotern.com/contact/)                
                     """)
+st.sidebar.markdown("[LinkedIn](https://www.novotern.com/)") 
 st.sidebar.subheader("Address")
 st.sidebar.text("""
                 The Philippi Centre, Oluwalogbon House, 
@@ -58,4 +59,3 @@ info@novotern.com
 """
 )
 
-st.sidebar.markdown("[LinkedIn](https://www.novotern.com/)") 
