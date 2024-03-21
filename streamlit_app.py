@@ -34,8 +34,7 @@ with st.expander('Distribution of Farm Category', True):
         
 st.sidebar.image('logo.png') 
 st.sidebar.text("""
-ELEVATE YOUR CAREER
-Unlock Limitless Opportunities with TECH
+ELEVATE YOUR CAREER WITH US
 """)   
 st.sidebar.subheader("Address")
 st.sidebar.text("""
