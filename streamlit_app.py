@@ -25,7 +25,7 @@ with st.expander('Farm Type Distribution', True):
     if st.checkbox('Show raw data'):
         st.write(farm_type_distribution)
         
-fig2 = px.pie(farms_by_category, 'index', 'counts', title='<b>Distribution of Farm Category</b>')
+fig2 = px.pie(farms_by_category, 'category', 'counts', title='<b>Distribution of Farm Category</b>')
 with st.expander('Distribution of Farm Category', True):
     st.plotly_chart(fig2, use_container_width=True)
     if st.checkbox('Show raw data'):
