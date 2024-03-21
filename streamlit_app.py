@@ -36,6 +36,13 @@ st.sidebar.image('logo.png')
 st.sidebar.text("""
 ELEVATE YOUR CAREER WITH US
 """)   
+st.sidebar.markdown("""
+                    ## Quick Links
+                    [Our Team](https://www.novotern.com/about/)
+                    [Programs](https://paystack.shop/novotern)
+                    [Careers](https://www.novotern.com/#)
+                    [Partnership](https://www.novotern.com/contact/)                
+                    """)
 st.sidebar.subheader("Address")
 st.sidebar.text("""
                 The Philippi Centre, Oluwalogbon House, 
@@ -50,12 +57,5 @@ st.sidebar.text(
 info@novotern.com
 """
 )
-st.sidebar.markdown("""
-                    ## Quick Links
-                    [Our Team](https://www.novotern.com/about/)
-                    [Programs](https://paystack.shop/novotern)
-                    [Careers](https://www.novotern.com/#)
-                    [Partnership](https://www.novotern.com/contact/)                
-                    """)
 
 st.sidebar.markdown("[LinkedIn](https://www.novotern.com/)") 
