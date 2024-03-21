@@ -2,7 +2,6 @@ import streamlit as st
 
 st.title("Nigeria Farmland Analysis")
 
-
 import pandas as pd
 import plotly.express as px
 
