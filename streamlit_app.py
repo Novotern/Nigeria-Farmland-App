@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Setting page size and title
+st.set_page_config(layout="wide", page_title='NOVOTERN POWER BI PORTFOLIO', page_icon='logo.png' ) 
+
 st.title("Nigeria Farmland Analysis")
 
 import pandas as pd
