@@ -3,7 +3,7 @@ import streamlit as st
 # Setting page size and title
 st.set_page_config(layout="wide", page_title='NOVOTERN PORTFOLIO', page_icon='logo.png' ) 
 
-st.title("Nigeria Farmland Analysis")
+st.title("<h1 style='text-align:center;'>Nigeria Farmland Analysis</h1>")
 
 st.markdown("""
 
